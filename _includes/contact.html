@@ -1,0 +1,36 @@
+<style>
+.Contact {
+  font-family: 'Helvetica Neue', sans-serif;
+  width: 100%;
+  font-size: 28px;
+  text-align:center;
+  padding-bottom:15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+}
+
+.formContainer {
+  width: 85%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+</style>
+
+<div class="formContainer">
+  <!-- <center> -->
+  <p class="Contact">Contact us</p>
+  <!-- </center> -->
+  <form action="https://formspree.io/contact@yomiwa.net" method="POST">
+    <!-- <label for="fname">Email</label> -->
+    <input type="text" id="fname" name="email" placeholder="Your e-mail">
+    <!-- <label for="subject">Subject</label> -->
+    <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
