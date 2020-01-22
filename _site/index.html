@@ -226,13 +226,75 @@ $(function() {
  -->
                 </div>
                 <div class="youtubeWrapper">
-                <div class="youtube">
-<body>
-<center>
- <iframe width="280" height="500" style="text-align: center;" src="https://www.youtube.com/embed/CQZD7iT7GQw"></iframe>
-</center>
-</body>
-<!-- <iframe style="display: block; margin: auto;" width="1000" height="315" src="https://www.youtube.com/embed/B7O4t7mweVw" frameborder="0" allowfullscreen></iframe> -->
+                <style>
+  *, *:before, *:after{
+      margin: 0;
+      padding: 0;
+      direction: ltr;
+      /* box-sizing: border-box; */
+  }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.column {
+  float: center;
+  width: 40%;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="youtube">
+    <body>
+    <center>
+     <iframe width="280" height="500" style="text-align: center;" src="https://www.youtube.com/embed/CQZD7iT7GQw"></iframe>
+    </center>
+    </body>
+    </div>
+  </div>
+  <div class="column">
+    <div class="youtube">
+    <body>
+    <center>
+     <iframe width="280" height="500" style="text-align: center;" src="https://www.youtube.com/embed/2RNwRyz6fdA"></iframe>
+    </center>
+    </body>
+    </div>
+  </div>
+  <div class="column">
+    <div class="youtube">
+    <body>
+    <center>
+     <iframe width="280" height="500" style="text-align: center;" src="https://www.youtube.com/embed/T_751uMRX3c"></iframe>
+    </center>
+    </body>
+    </div>
+  </div>
 </div>
 
                 <!-- <div class="features">
