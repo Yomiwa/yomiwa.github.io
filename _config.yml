@@ -12,8 +12,8 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/logo_1024.png                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Yomiwa                                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Your ultimate Japanese dictionary
-app_description                           : An all-in-one multilingual dictionary, translator, optical recognizer <br />
-                                            Video below!
+app_description                           : An all-in-one multilingual dictionary, translator and optical recognizer <br />
+                                            Videos below!
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
