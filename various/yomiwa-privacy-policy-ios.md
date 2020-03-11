@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy policy for the Yomiwa App
-permalink: /ios/privacy-policy
+permalink: /privacy/ios
 ---
 
 The team working on the Yomiwa app is committed to privacy. Currently, the the Yomiwa app does not gather any user information.
